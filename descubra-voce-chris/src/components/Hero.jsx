@@ -15,17 +15,20 @@ const Hero = () => (
       </div>
 
       <h1 className="font-semibold ss:text-[56px] text-[56px] text-white ss:leading-[120%] leading-[72.8px] w-full">
-        e revele o poder da <br className="sm:block hidden" />{" "} sua imagem
+        e liberte o poder da <br className="sm:block hidden" />{" "} sua imagem
       </h1>
       <p className={`${styles.heading3} max-w-[540px] mt-8`}>
-        Aprenda a técnica de análise facial comportamental e explore uma jornada
-        fascinante de autodescoberta rumo à sua essência. Decifre os mistérios
-        do seu rosto e construa uma marca pessoal magnética!
+      Domine a análise facial comportamental e embarque 
+      em uma jornada fascinante de autodescoberta. 
+      Descubra os segredos presentes em seu rosto e 
+      crie uma marca pessoal magnética!
+
       </p>
       
        <CTA styles='mt-8'/>
-     
-      
+       <p className={`${styles.paragraph_small} max-w-[540px] mt-8`}>
+       Compra 100% segura | Garantia incondicional de 7 dias
+       </p>
     </div>
 
     {/*Right side*/}
