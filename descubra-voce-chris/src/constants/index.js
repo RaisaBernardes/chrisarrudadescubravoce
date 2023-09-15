@@ -15,14 +15,19 @@ import {
 
 //Section 2
 
-export const text_section2 = [
-  {
-    id: "text_section2",
-    title: "“Descubra Você” para ativar todo o seu potencial.",
-    emphasis: "Descubra você",
+// export const text_section2 = [
+//   {
+//     id: "text_section2",
+//     titleT: "“Descubra Você” para ativar todo o seu potencial.",
+//     emphasisT: "Descubra você",
+//     textT: "Você já sentiu que há mais em você do que o mundo pode ver? Você sabe que é capaz de ser melhor mas não sabe por onde começar? Se você anseia por desvendar suas habilidades, resgatar sua essência e compreender a força de sua própria imagem, este é o seu caminho. Imagine entender o que seu rosto transmite, construir uma estratégia de imagem poderosa e despertar sua autoestima interior e exterior. Seja magnética em seus negócios, relacionamentos e vida.",
+//   },
+// ];
+
+export const text_section2 = {
+    title: '“Descubra Você” para ativar todo o seu potencial.',
     text: "Você já sentiu que há mais em você do que o mundo pode ver? Você sabe que é capaz de ser melhor mas não sabe por onde começar? Se você anseia por desvendar suas habilidades, resgatar sua essência e compreender a força de sua própria imagem, este é o seu caminho. Imagine entender o que seu rosto transmite, construir uma estratégia de imagem poderosa e despertar sua autoestima interior e exterior. Seja magnética em seus negócios, relacionamentos e vida.",
-  },
-];
+}
 
 export const features = [
   {
@@ -177,13 +182,13 @@ export const socialMedia = [
   },
   {
     id: "social-media-2",
-    icon: icon_facebook,
+    icon: icon_instagram,
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
     icon: icon_whatsapp,
-    link: "https://www.twitter.com/",
+    link: "https://www.whatsapp.com/",
   },
 
 ];
