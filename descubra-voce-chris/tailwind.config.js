@@ -8,7 +8,8 @@ module.exports = {
         primary: "#160F24",
         secondary: "#8A11C0",
         dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        dimBlue: "#2420E3",
+        dimPurple: "rgba(106, 9, 151, 0.2)",
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],

@@ -13,6 +13,8 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+
+  --darkPurpleGradient: linear-gradient(153deg, #592859 -341.94%, #130C21 95.11%);
 }
 
 * {
@@ -102,7 +104,7 @@
 }
 
 .feature-card:hover {
-  background: var(--black-gradient);
+  background: var( --darkPurpleGradient);
   box-shadow: var(--card-shadow);
 }
 
@@ -110,22 +112,15 @@
   margin-right: 0px;
 }
 
-.feedback-card {
-  background: transparent;
+.learning-card {
+  background: #270E3B;
 }
-
-.feedback-card:hover {
-  background: var(--black-gradient);
-}
-
 
 
 .purple__gradient {
-  
   border-radius: 140px;
   background: var(--gradiente-background-photos, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, #150E22 0%, #DB00FB 42.19%, #51306B 79.17%, #FFF 96.88%));
   filter: blur(250px);
-
 }
 
 .white__gradient {

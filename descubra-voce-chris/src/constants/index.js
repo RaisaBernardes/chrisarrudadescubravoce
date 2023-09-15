@@ -15,15 +15,6 @@ import {
 
 //Section 2
 
-// export const text_section2 = [
-//   {
-//     id: "text_section2",
-//     titleT: "“Descubra Você” para ativar todo o seu potencial.",
-//     emphasisT: "Descubra você",
-//     textT: "Você já sentiu que há mais em você do que o mundo pode ver? Você sabe que é capaz de ser melhor mas não sabe por onde começar? Se você anseia por desvendar suas habilidades, resgatar sua essência e compreender a força de sua própria imagem, este é o seu caminho. Imagine entender o que seu rosto transmite, construir uma estratégia de imagem poderosa e despertar sua autoestima interior e exterior. Seja magnética em seus negócios, relacionamentos e vida.",
-//   },
-// ];
-
 export const text_section2 = {
     title: '“Descubra Você” para ativar todo o seu potencial.',
     text: "Você já sentiu que há mais em você do que o mundo pode ver? Você sabe que é capaz de ser melhor mas não sabe por onde começar? Se você anseia por desvendar suas habilidades, resgatar sua essência e compreender a força de sua própria imagem, este é o seu caminho. Imagine entender o que seu rosto transmite, construir uma estratégia de imagem poderosa e despertar sua autoestima interior e exterior. Seja magnética em seus negócios, relacionamentos e vida.",
@@ -55,14 +46,13 @@ export const features = [
 
 //Section 3
 
-export const text_section3= [
-  {
+export const text_section3 = {
     id: "text_section3",
     title: "O Que Você Vai",
     emphasis: "Dominar?",
     text: "Descubra as habilidades que vão expandir seus horizontes e transformar a sua percepção e apresentação ao mundo.",
-  },
-];
+  };
+
 
 export const learning = [
   {
