@@ -7,7 +7,7 @@ const Cards = ({ content, icon }) => (
       alt="icon"
       className="w-[42px] h-[27px] object-contain mt-5"
     />
-    <p className="font-normal text-center text-[16px] leading-[32px] text-white mt-10">
+    <p className="font-normal text-center text-[16px] leading-[130%] text-white mt-10 mr-2 ml-2 mb-10">
       {content}
     </p>
   </div>

@@ -127,3 +127,10 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.second_purple_gradient {
+  background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #F3DEFA 0.89%, #E6BEF5 17.23%, #DA9DF0 42.04%, #CE7DEB 55.12%, #C15CE6 71.54%, #A533CF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

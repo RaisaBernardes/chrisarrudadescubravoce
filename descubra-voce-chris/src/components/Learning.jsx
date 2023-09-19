@@ -21,11 +21,15 @@ const Learning = () => {
       </div>
 
       {/*Cards*/}
-      <div className="flex flex-wrap sm:justify-center justify-center w-full relative z-[1] mt-20">
+      
+      <div className="min-h-screen flex items-center justify-center">
+      <div className="holder mx-auto w-10/12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
         {learning.map((card) => (
           <Cards key={card.id} {... card}/>
         ))}
       </div>
+      </div>
+
     </section>
   )}
 

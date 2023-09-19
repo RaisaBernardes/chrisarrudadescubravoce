@@ -83,13 +83,12 @@ export const learning = [
 
 //section 4
 
-export const text_modules = [
-  {
+export const text_section4 = {
     id: "text_modules",
     title: "Como funciona?",
     text: "Desvende uma abordagem única e abrangente enquanto explora a análise do rosto, morfopsicologia, visagismo, estratégia de imagem e marca pessoal. E o melhor? O curso é 100% online, então você define o ritmo, adaptando cada etapa à sua jornada.",
-  },
-  ]
+  }
+  
 
 export const modules = [
   {
