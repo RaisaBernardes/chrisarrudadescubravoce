@@ -3,11 +3,11 @@ import styles, { layout }  from "../style";
 
 
 const ModulesContainer = ({icon, title, content, index}) => (
-  <div className="flex flex-row">
+  <div className="w-1/2 flex flex-row">
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} dimPurple `}>
       <img src={icon} alt='icon' className='w-[30%] h-[30%] object-contain'/>
     </div>
-    <div className='flex-1 flex flex-col ml-3'>
+    <div className='flex-1 flex flex-col ml-3 mt-5'>
       <h4 className='text-lg font-semibold font-normal leading-[1.2] text-white'>
         {title}
       </h4>
@@ -17,7 +17,6 @@ const ModulesContainer = ({icon, title, content, index}) => (
     </div>
   </div>
 )
-
 
 
 const HowWorks = () => {

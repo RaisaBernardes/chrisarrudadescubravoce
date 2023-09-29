@@ -25,7 +25,7 @@ const Hero = () => (
 
       </p>
       
-       <CTA styles='mt-8'/>
+       <CTA styles='mt-8' label='Eu quero ser magnética!'/>
        <p className={`${styles.paragraph_small} max-w-[540px] mt-8`}>
        Compra 100% segura | Garantia incondicional de 7 dias
        </p>
