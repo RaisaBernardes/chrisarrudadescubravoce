@@ -28,7 +28,7 @@ const ForWho = () => {
       <div className={layout.sectionInfo}>
         <h2 className={`${styles.heading2} mt-10`}>{title}</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{text}</p> 
-    </div>
+      </div>
 
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (

@@ -124,13 +124,12 @@ export const modules = [
 ];
 
 
-export const text_chris = [
-  {
+export const text_chris = {
     id: "text_chris",
     title: "Quem é Chris Arruda?",
     text: "Chris é uma neurocientista, analista facial comportamental e especialista em personal branding, que tem como paixão guiar mulheres em sua jornada de autodescoberta e construção de uma marca pessoal única. Seu compromisso é ajudá-las a descobrir sua verdadeira identidade, explorar seus potenciais e transmitir confiança e impacto em suas mensagens. Com uma jornada inspiradora, Chris capacita mulheres a se tornarem a melhor versão de si mesmas, deixando um impacto duradouro no mundo.",
   }
-] 
+
 
 
 export const faq_texts = [
