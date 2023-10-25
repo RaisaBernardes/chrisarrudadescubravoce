@@ -8,7 +8,8 @@ import {
   icon_mirror,
   icon_check,
   icon_instagram,
-  icon_whatsapp
+  icon_whatsapp,
+  icon_youtube
 } from "../assets";
 
 
@@ -166,17 +167,17 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: icon_instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/chrisarruda11/",
   },
   {
     id: "social-media-2",
-    icon: icon_instagram,
-    link: "https://www.facebook.com/",
+    icon: icon_youtube,
+    link: "https://www.youtube.com/@1chrisarruda",
   },
   {
     id: "social-media-3",
     icon: icon_whatsapp,
-    link: "https://www.whatsapp.com/",
+    link: "https://wa.me/5581999030945",
   },
 
 ];

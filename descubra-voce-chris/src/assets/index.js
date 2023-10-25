@@ -11,6 +11,7 @@ import art_backside from "./art_backside.png";
 import icon_check from "./icon_check.svg";
 import icon_instagram from "./icon_instagram.svg";
 import icon_whatsapp from "./icon_whatsapp.svg";
+import icon_youtube from "./icon_youtube.svg";
 
 
 export {
@@ -27,4 +28,5 @@ export {
   icon_check,
   icon_instagram,
   icon_whatsapp,
+  icon_youtube,
 };
