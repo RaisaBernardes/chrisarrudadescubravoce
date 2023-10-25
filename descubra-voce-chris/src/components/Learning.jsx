@@ -16,18 +16,18 @@ const Learning = () => {
 
       {/*Left text*/}
       <div className={layout.sectionInfo}>
-        <h1 className={styles.heading2}>{title} <br className="sm:block hidden"/>{emphasis}</h1>
+        <h1 className={`${styles.heading2} `}>{title}</h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{text}</p>
       </div>
 
       {/*Cards*/}
       
       <div className="min-h-screen flex items-center justify-center">
-      <div className="holder mx-auto w-10/12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
-        {learning.map((card) => (
-          <Cards key={card.id} {... card}/>
-        ))}
-      </div>
+        <div className=" mx-auto grid ss:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 ">
+          {learning.map((card) => (
+            <Cards key={card.id} {... card}/>
+          ))}
+        </div>
       </div>
 
     </section>

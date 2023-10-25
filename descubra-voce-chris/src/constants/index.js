@@ -49,8 +49,7 @@ export const features = [
 
 export const text_section3 = {
     id: "text_section3",
-    title: "O Que Você Vai",
-    emphasis: "Dominar?",
+    title: "O Que Você Vai Dominar",
     text: "Descubra as habilidades que vão expandir seus horizontes e transformar a sua percepção e apresentação ao mundo.",
   };
 
@@ -78,7 +77,7 @@ export const learning = [
     id: "learning-4",
     content:
       "Você aprenderá como escolher um visual que transmita a mensagem desejada, permitindo que sua imagem externa reflita a sua verdadeira essência.",
-    img: icon_mirror,
+    icon: icon_mirror,
   },
 ];
 
