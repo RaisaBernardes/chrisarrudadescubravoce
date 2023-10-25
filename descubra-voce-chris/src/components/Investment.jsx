@@ -5,16 +5,16 @@ import CTA from "./CTA";
 /* title: Acesso ao Descubra Você*/
 const Investment = () => {
   return (
-    <section id="investment" className={`flex-col relative mt-20 mb-20 `}>
-      <div className={`flex justify-center items-center`}>
-        <h1 className={`${styles.heading2} text-center`}>
+    <section id="investment" className={`flex-col relative pt-20`}>
+      <div className={`flex justify-center items-center pb-20 md:pb-0`}>
+        <h1 className={`${styles.heading2} text-center w-[300px] sm:w-full`}>
           Acesso ao Descubra Você
         </h1>
       </div>
 
       <div className={`flex flex-col  justify-center items-center h-screen`}>
         <div className={`flex sm:flex-row flex-col space-x-10 ${styles.flexCenter}  mt-20`}>
-          <div className={`border_card p-8 pr-16 pl-16 rounded-md shadow-md text-center`}>
+          <div className={`border_card p-8 pr:8 pl:8 lg:pr-16 lg:pl-16 rounded-md shadow-md text-center`}>
             {/*Content for the left card*/}
             <div className={`text-2xl font-semibold uppercase second_purple_gradient`}>
               VALOR PROMOCIONAL
@@ -44,14 +44,14 @@ const Investment = () => {
             {/*Content for the right card*/}
             <div className="text-left w-80">
               
-              <div className="text-[48px] font-normal leading-[62.4px] capitalize second_purple_gradient">
+              <div className="text-[48px] font-normal leading-[62.4px] capitalize second_purple_gradient mt-10">
                 7 Dias
               </div>
               <div className="font-lato text-[20.446px] uppercase leading-[26.58px] second_purple_gradient">
                 DE GARANTIA INCONDICIONAL
               </div>
 
-              <div className="mt-10 text-white">
+              <div className="mt-10 mb-16 text-white">
                 Caso, por algum motivo, achar que o conteúdo do curso não é
                 adequado para o seu perfil, você pode entrar em contato conosco
                 dentro de 7 dias e receberá o reembolso integral do seu

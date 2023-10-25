@@ -9,15 +9,15 @@ const Chris = () => {
   return (
     <section id="text_chris" className={layout.section}>
       {/*Left side*/}
-      <div className={`${layout.sectionInfo} justify-center items-start`}>
-        <h2 className={`${styles.heading2} mt-10 text-white`}>{title}</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5 text-white`}>
+      <div className={`${layout.sectionInfo} justify-start items-start max-container`}>
+        <h2 className={`${styles.heading2} mt-10 text-start text-white`}>{title}</h2>
+        <p className={`${styles.paragraph} justify-start items-start max-w-[460px] mt-5 text-white`}>
           {text}
         </p>
       </div>
 
       {/*Right side*/}
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative hidden md:flex`}>
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative hidden md:block`}>
         <img
           src={chris_who}
           alt="chrisWho"

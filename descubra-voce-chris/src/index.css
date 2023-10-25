@@ -13,10 +13,8 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
-
   --darkPurpleGradient: linear-gradient(153deg, #592859 -341.94%, #130C21 95.11%);
-
-  --borderGradient: rgba(255, 255, 255, 1);
+ 
 }
 
 * {
@@ -173,7 +171,7 @@
 
 .border_card {
   border-radius: 5px;
-  border: 3px solid var(--borderGradient);
+  border: 1.5px solid #270E3B;;
   box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
 }
 
