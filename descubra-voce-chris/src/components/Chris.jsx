@@ -9,7 +9,7 @@ const Chris = () => {
   return (
     <section id="text_chris" className={layout.section}>
       {/*Left side*/}
-      <div className={layout.sectionInfo}>
+      <div className={`${layout.sectionInfo} justify-center items-start`}>
         <h2 className={`${styles.heading2} mt-10 text-white`}>{title}</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 text-white`}>
           {text}
@@ -17,9 +17,7 @@ const Chris = () => {
       </div>
 
       {/*Right side*/}
-      <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
-      >
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative hidden md:flex`}>
         <img
           src={chris_who}
           alt="chrisWho"

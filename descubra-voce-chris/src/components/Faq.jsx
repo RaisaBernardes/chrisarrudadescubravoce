@@ -8,11 +8,11 @@ const Accordions = ({title, answer}) => {
   return (
         <Accordion collapseAll>
           <Accordion.Panel>
-            <Accordion.Title>
+            <Accordion.Title className='faq mt-4 lg:mt-6 font-lato'>
               {title}
-            </Accordion.Title>
-            <Accordion.Content>
-              <p className="mb-2 text-white">
+            </Accordion.Title >
+            <Accordion.Content className='bg-mediumPurple'>
+              <p className="mb-2 text-whit">
                 <p>
                   {answer}
                 </p>
@@ -34,7 +34,7 @@ const Faq = () => {
     <section id="faq_texts" className="flex-col justify-center mt-20 mb-20">
       
       <div className="flex justify-center items-center">
-        <h2 className={`${styles.heading2} mt-10 mb-10 flex justify-center items-center`}>Perguntas Frequentes</h2>
+        <h2 className={`${styles.heading2} mt-10 mb-10 flex justify-center items-center `}>Perguntas Frequentes</h2>
       </div>
 
       <div className={`flex-col text-white`}>

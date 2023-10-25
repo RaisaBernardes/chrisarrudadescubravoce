@@ -4,9 +4,9 @@ import CTA from "../components/CTA";
 
 const Ending = () => {
   return (
-    <section id="investment" className={`padding max-container mt-60 mb-60`}>
-        <div className={`flex flex-col justify-center items-center md:gap-y-12`}>
-          <h1 className={`text-[24px] md:text-[36px] text-white leading-[150%] font-lato font-bold text-center max-sm:w-[360px] md:w-[550px]`}>
+    <section id="investment" className={`padding max-container m-55`}>
+        <div className={`flex flex-col justify-center items-center md:gap-y-12 xs:mb-10`}>
+          <h1 className={`text-[32px] ss:text-[36px] text-white leading-[150%] font-lato font-bold text-center max-xs:w-[360px] md:w-[600px]`}>
             Venha embarcar nessa jornada de autodescoberta e transformação!
           </h1>
 

@@ -3,8 +3,8 @@ import { socialMedia } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className={`${styles.flexCenter} h-40 md:h-56  w-full bg-superDarkPurple`}>
-      <div className="flex flex-col items-center gap-y-4 max-container">
+    <footer className={`${styles.flexCenter} h-40 md:h-44 w-full bg-superDarkPurple`}>
+      <div className="flex flex-col items-center gap-y-3 max-container">
         <div className="flex flex-row md:mt-0">
           {socialMedia.map((social, index) => (
             <img
@@ -18,10 +18,10 @@ const Footer = () => {
             />
           ))}
         </div>
-        <p className="font-lato font-normal text-center text-[12px] md:text-[16px] md:leading-[27px] text-white">
+        <p className="font-lato font-normal text-center text-[12px] md:text-[14px] md:leading-[20px] text-white">
           Copyright Ⓒ 2023 All Rights Reserved.
         </p>
-        <p className="font-lato font-normal text-center text-[12px] md:text-[16px] md:leading-[27px] text-white">
+        <p className="font-lato font-normal text-center text-[12px] md:text-[14px] md:leading-[20px] text-white">
           Desenvolvido por{" "}
           <a
             href="https://wa.me/5581999458630"

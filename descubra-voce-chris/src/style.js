@@ -1,9 +1,9 @@
 const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
   
-    heading2: "font-lato font-semibold xs:text-[48px] text-[36px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    heading2: "font-lato font-semibold xs:text-[40px] text-[36px] text-white w-full",
     heading3: "font-lato font-light xs:text-[20px] text-[24px] text-white xs:leading-[150%] leading-[150%] w-full",
-    paragraph: "font-lato font-normal text-dimWhite text-[18px] leading-[30.8px]",
+    paragraph: "font-lato font-normal text-dimWhite text-[16px] leading-[28.8px]",
     paragraph_small: "font-lato font-normal text-dimWhite uppercase text-[12px] leading-[30.8px]",
   
     flexCenter: "flex justify-center items-center",
