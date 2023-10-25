@@ -31,6 +31,20 @@
   }
 }
 
+@layer utilities {
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .padding-x {
+    @apply sm:px-16 px-8;
+  }
+
+  .padding-y {
+    @apply sm:py-24 py-12;
+  }
+}
+
 .hero-text-gradient {
   background: linear-gradient(176deg, #E2BCF0 0%, #FFF 7.81%, #9F68B2 42.19%, #E28EFF 62.50%, rgba(255, 255, 255, 0.00) 100%);
   background-clip: text;
@@ -51,6 +65,17 @@
   background: #8A11C0;
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.21);
 }
+
+
+.bg-ending {
+  border-radius: 200px;
+  background: linear-gradient(90deg, rgba(244, 196, 243, 0.00) 0%, #8B1BBA 100%);
+  filter: blur(250px);
+  transform: rotate(-89.999deg);
+  flex-shrink: 0;
+}
+
+
 
 .bg-black-gradient {
   background: linear-gradient(
