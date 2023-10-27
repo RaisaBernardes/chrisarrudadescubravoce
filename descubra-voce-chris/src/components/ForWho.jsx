@@ -7,7 +7,7 @@ const FeatureCard = ({icon, title, content, index}) => (
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} dimPurple`}>
         <img src={icon} alt='icon' className='w-[40%] h-[40%] object-contain'/>
       </div>
-      <div className='flex-1 flex flex-col ml-3'>
+      <div className='flex-1 flex flex-col ml-2'>
         <h4 className='font-semibold text-white text-[18px] leading-[24px] mb-2 max-w-[400px]'>
           {title}
         </h4>
@@ -25,14 +25,14 @@ const ForWho = () => {
   const { title, text } = text_section2;
 
   return (
-    <section id="features" className={`${styles.paddingY} flex-1 flex-row justify-center items-center sm:mt-20 sm:mb-20 lg:items-start`}>
-      <div className="flex flex-col md:flex-row justify-items-start">
-        <div className={`flex-1`}>
+    <section id="features" className={` flex-1 flex-row  items-start sm:mt-20 sm:mb-20`}>
+      <div className="flex flex-col  md:flex-row md:justify-items-start">
+        <div className={`flex-col flex-1`}>
           <h2 className={`${styles.heading2} flex-1`}>{title}</h2>
-          <p className={`${styles.paragraph} flex-1 mt-5 max-w-[530px]`}>{text}</p> 
+          <p className={`${styles.paragraph} flex flex-1 mt-5 max-w-[530px]`}>{text}</p> 
         </div>
       
-      <div className={`${layout.sectionImg} flex-col`}>
+      <div className={`flex mt-20 md:mt-0 flex-col max-w-[530px]`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} /> //"..." spread all the features inside the object
         ))}

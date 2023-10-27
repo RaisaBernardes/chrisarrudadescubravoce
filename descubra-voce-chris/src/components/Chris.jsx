@@ -7,7 +7,7 @@ const Chris = () => {
   const { title, text } = text_chris;
 
   return (
-    <section id="text_chris" className={`flex md:flex-row flex-col items-center ${styles.paddingY}` }>
+    <section id="text_chris" className={`flex md:flex-row flex-col ${styles.paddingY} md:items-center` }>
       {/*Left side*/}
       <div className={`flex flex-1 flex-col`}>
         <h2 className={`${styles.heading2} mt-8 text-start text-white`}>{title}</h2>
@@ -23,7 +23,7 @@ const Chris = () => {
           alt="chrisWho"
           className="w-[100%] h-[100%] relative z-[5] -right-[30%] "
         />
-        <div className="absolute z-[0] w-[100%] h-[100%] top-0 who-photo-gradient" />
+        <div className="absolute z-[0] w-[100%] h-[100%] top-0 -right-[20%] who-photo-gradient" />
       </div>
     </section>
   );

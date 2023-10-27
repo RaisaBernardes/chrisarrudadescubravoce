@@ -5,7 +5,7 @@ import CTA from "./CTA";
 /* title: Acesso ao Descubra Você*/
 const Investment = () => {
   return (
-    <section id="investment" className={`flex flex-col sm:mt-20 sm:mb-20`}>
+    <section id="investment" className={`flex flex-col xs:mt-20 xs:mb-20`}>
       <div className={`flex justify-center items-center `}>
         <h1 className={`${styles.heading2} text-center w-[300px] sm:w-full`}>
           Acesso ao Descubra Você

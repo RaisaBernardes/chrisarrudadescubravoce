@@ -9,7 +9,7 @@ const Benefits = () => {
   return (
 
   <section id="benefits" className="flex flex-col relative mt-20 mb-20">
-   <div className='flex flex-col justify-center items-center'>
+   <div className='flex flex-col justify-center items-center mt-20'>
       <div className="flex justify-center items-center">
             <h1 className={`${styles.heading2} text-center`}>Desfrute de três benefícios <br/>em um único curso</h1>
       </div>

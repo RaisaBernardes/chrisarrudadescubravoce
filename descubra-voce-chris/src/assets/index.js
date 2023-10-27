@@ -12,6 +12,7 @@ import icon_check from "./icon_check.svg";
 import icon_instagram from "./icon_instagram.svg";
 import icon_whatsapp from "./icon_whatsapp.svg";
 import icon_youtube from "./icon_youtube.svg";
+import blur1 from "./blur1.png";
 
 
 
@@ -32,4 +33,5 @@ export {
   icon_instagram,
   icon_whatsapp,
   icon_youtube,
+  blur1
 };

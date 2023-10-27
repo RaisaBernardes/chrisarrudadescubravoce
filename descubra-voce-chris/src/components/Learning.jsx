@@ -9,13 +9,13 @@ const Learning = () => {
   const { title, emphasis, text } = text_section3;
 
   return (
-    <section id="learning" className={`flex flex-col sm:mt-20 sm:mb-20`}>
+    <section id="learning" className={`flex flex-col xs:mt-20 xs:mb-20`}>
       
       {/*right gradient*/}
       {/* <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full purple__gradient"/> */}
 
       {/*Text*/}
-      <div className={`flex-1 flex-col justify-center items-start sm:items-center sm:justify-center  ` }>
+      <div className={`flex-1 flex-col justify-center items-start sm:items-center sm:justify-center ` }>
         <h2 className={`${styles.heading2} mt-10`}>{title}</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{text}</p> 
       </div>
