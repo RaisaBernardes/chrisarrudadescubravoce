@@ -5,14 +5,14 @@ import CTA from "./CTA";
 /* title: Acesso ao Descubra Você*/
 const Investment = () => {
   return (
-    <section id="investment" className={`flex-col relative pt-20`}>
-      <div className={`flex justify-center items-center pb-20 md:pb-0`}>
+    <section id="investment" className={`${layout.section} sm:mt-20 sm:mb-20`}>
+      <div className={`flex justify-center items-center `}>
         <h1 className={`${styles.heading2} text-center w-[300px] sm:w-full`}>
           Acesso ao Descubra Você
         </h1>
       </div>
 
-      <div className={`flex flex-col  justify-center items-center h-screen`}>
+      <div className={`flex flex-col justify-center items-center h-screen`}>
         <div className={`flex sm:flex-row flex-col space-x-10 ${styles.flexCenter}  mt-20`}>
           <div className={`border_card p-8 pr:8 pl:8 lg:pr-16 lg:pl-16 rounded-md shadow-md text-center`}>
             {/*Content for the left card*/}

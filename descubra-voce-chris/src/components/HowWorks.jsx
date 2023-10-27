@@ -27,8 +27,8 @@ const HowWorks = () => {
     <section id="modules" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className="flex flex-col sm:grid justify-items-start">
         <div className={`${layout.sectionInfo} flex-row`}>
-          <h2 className={`${styles.heading2} mt-8 text-white`}>{title}</h2>  
-          <p className={`${styles.paragraph} max-w-[530px] mt-5 text-white`}>
+          <h2 className={`${styles.heading2} mt-8`}>{title}</h2>  
+          <p className={`${styles.paragraph} max-w-[530px] mt-5`}>
             {text}
           </p>
         </div>

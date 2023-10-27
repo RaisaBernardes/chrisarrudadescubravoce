@@ -41,6 +41,22 @@
   .padding-y {
     @apply sm:py-24 py-12;
   }
+
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
+
+  .padding-r {
+    @apply sm:pr-16 pr-8;
+  }
+
+  .padding-t {
+    @apply sm:pt-24 pt-12;
+  }
+
+  .padding-b {
+    @apply sm:pb-24 pb-12;
+  }
 }
 
 
@@ -137,7 +153,7 @@
   }
 }
 
-.feature-card:hover {
+.feature-card {
   background: var( --darkPurpleGradient);
   box-shadow: var(--card-shadow);
 }

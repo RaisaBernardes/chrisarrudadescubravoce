@@ -2,17 +2,19 @@ import { features, text_section2 } from '../constants'
 import styles, { layout } from '../style';
 
 const FeatureCard = ({icon, title, content, index}) => (
-  <div className={`flex flex-row p-6 rounded-[5px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card`}>
-    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} dimPurple`}>
-      <img src={icon} alt='icon' className='w-[50%] h-[50%] object-contain'/>
+  <div className={`flex flex-row p-6 rounded-[5px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card md:h-[200px] lg:h-[180px] items-center`}>
+    <div className='flex items-start'>
+      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} dimPurple`}>
+        <img src={icon} alt='icon' className='w-[40%] h-[40%] object-contain'/>
+      </div>
+      <div className='flex-1 flex flex-col ml-3'>
+        <h4 className='font-semibold text-white text-[18px] leading-[24px] mb-2 max-w-[400px]'>
+          {title}
+        </h4>
+        <p className='font-normal text-dimWhite text-[16px] leading-[24px] mb-1 max-w-[400px]'>
+          {content}
+        </p>
     </div>
-    <div className='flex-1 flex flex-col ml-3'>
-    <h4 className='font-semi-bold text-white tex-[18px] leading-[23px] mb-1'>
-      {title}
-    </h4>
-    <p className='font-semi-bold text-dimWhite tex-[16px] leading-[24px] mb-1'>
-      {content}
-    </p>
   </div>
   </div>
 )
@@ -23,17 +25,18 @@ const ForWho = () => {
   const { title, text } = text_section2;
 
   return (
-    <section id="features" className={layout.section}>
+    <section id="features" className={`${styles.paddingY} flex-1 flex-row justify-center items-center sm:mt-20 sm:mb-20 lg:items-start`}>
+      <div className="flex flex-col md:flex-row justify-items-start">
+        <div className={`flex-1`}>
+          <h2 className={`${styles.heading2} flex-1`}>{title}</h2>
+          <p className={`${styles.paragraph} flex-1 mt-5 max-w-[530px]`}>{text}</p> 
+        </div>
       
-      <div className={layout.sectionInfo}>
-        <h2 className={`${styles.heading2} mt-10`}>{title}</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{text}</p> 
-      </div>
-
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} /> //"..." spread all the features inside the object
         ))}
+      </div>
       </div>
     </section>
   )

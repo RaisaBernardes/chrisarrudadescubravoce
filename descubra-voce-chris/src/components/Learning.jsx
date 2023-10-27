@@ -9,23 +9,25 @@ const Learning = () => {
   const { title, emphasis, text } = text_section3;
 
   return (
-    <section id="learning" className={`${styles.paddingY} flex-col relative`}>
+    <section id="learning" className={`flex flex-col sm:mt-20 sm:mb-20`}>
       
       {/*right gradient*/}
       {/* <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full purple__gradient"/> */}
 
-      {/*Left text*/}
-      <div className={layout.sectionInfo}>
-        <h1 className={`${styles.heading2} `}>{title}</h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{text}</p>
+      {/*Text*/}
+      <div className={`flex-1 flex-col justify-center items-start sm:items-center sm:justify-center  ` }>
+        <h2 className={`${styles.heading2} mt-10`}>{title}</h2>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{text}</p> 
       </div>
 
       {/*Cards*/}
       
-      <div className="min-h-screen flex items-center justify-center">
-        <div className=" mx-auto grid ss:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 ">
+      <div className="flex items-center justify-center">
+        <div className=" mx-auto grid ss:grid-cols-2 md:grid-cols-4 mt-10 gap-8">
           {learning.map((card) => (
-            <Cards key={card.id} {... card}/>
+            <Cards 
+            key={card.id} {... card}
+            />
           ))}
         </div>
       </div>
