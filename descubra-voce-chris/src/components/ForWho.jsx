@@ -25,7 +25,7 @@ const ForWho = () => {
   const { title, text } = text_section2;
 
   return (
-    <section id="features" className={` flex-1 flex-row  items-start sm:mt-20 sm:mb-20`}>
+    <section id="features" className={`flex-1 flex-row  items-start mt-20 sm:mt-40 sm:mb-20`}>
       <div className="flex flex-col  md:flex-row md:justify-items-start">
         <div className={`flex-col flex-1`}>
           <h2 className={`${styles.heading2} flex-1`}>{title}</h2>
