@@ -76,6 +76,16 @@
   letter-spacing: -0.28px;
 }
 
+.who-photo-gradient {
+  border-radius: 200px;
+  background: linear-gradient(90deg, #F4C4F3 0%, #FC67FA 100%);
+  filter: blur(250px);
+  width: 261.59px;
+  height: 389.731px;
+  transform: rotate(156.607deg);
+  flex-shrink: 0;
+}
+
 .bg-button {
   background: #8A11C0;
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.21);

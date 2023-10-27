@@ -7,11 +7,11 @@ const Chris = () => {
   const { title, text } = text_chris;
 
   return (
-    <section id="text_chris" className={layout.section}>
+    <section id="text_chris" className={`flex md:flex-row flex-col items-center ${styles.paddingY}` }>
       {/*Left side*/}
-      <div className={`${layout.sectionInfo} justify-start items-start max-container`}>
-        <h2 className={`${styles.heading2} mt-10 text-start text-white`}>{title}</h2>
-        <p className={`${styles.paragraph} justify-start items-start max-w-[460px] mt-5 text-white`}>
+      <div className={`flex flex-1 flex-col`}>
+        <h2 className={`${styles.heading2} mt-8 text-start text-white`}>{title}</h2>
+        <p className={`${styles.paragraph} flex flex-1 justify-start items-start max-w-[530px] mt-8`}>
           {text}
         </p>
       </div>
@@ -21,9 +21,9 @@ const Chris = () => {
         <img
           src={chris_who}
           alt="chrisWho"
-          className="w-[100%] h-[100%] relative z-[5]"
+          className="w-[100%] h-[100%] relative z-[5] -right-[30%] "
         />
-        <div className="absolute z-[0] w-[80%] h-[80%] top-0 purple__gradient" />
+        <div className="absolute z-[0] w-[100%] h-[100%] top-0 who-photo-gradient" />
       </div>
     </section>
   );
