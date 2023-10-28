@@ -9,7 +9,7 @@ const Learning = () => {
   const { title, emphasis, text } = text_section3;
 
   return (
-    <section id="learning" className={`flex flex-col xs:mt-20 xs:mb-20`}>
+    <section id="learning" className={`flex flex-col xs:mt-20 xs:mb-20 mt-20`}>
       
       {/*right gradient*/}
       {/* <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full purple__gradient"/> */}

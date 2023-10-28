@@ -7,7 +7,7 @@ const Chris = () => {
   const { title, text } = text_chris;
 
   return (
-    <section id="text_chris" className={`flex md:flex-row flex-col ${styles.paddingY} md:items-center` }>
+    <section id="text_chris" className={`flex md:flex-row flex-col md:items-center mt-20 md:mt-0` }>
       {/*Left side*/}
       <div className={`flex flex-1 flex-col`}>
         <h2 className={`${styles.heading2} mt-8 text-start text-white`}>{title}</h2>

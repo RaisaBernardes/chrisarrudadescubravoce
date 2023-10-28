@@ -5,7 +5,7 @@ import CTA from "./CTA";
 /* title: Acesso ao Descubra Você*/
 const Investment = () => {
   return (
-    <section id="investment" className={`flex flex-col xs:mt-20 xs:mb-20`}>
+    <section id="investment" className={`flex flex-col mt-20 mb-20`}>
       <div className={`flex justify-center items-center `}>
         <h1 className={`${styles.heading2} text-center w-[300px] sm:w-full`}>
           Acesso ao Descubra Você
@@ -42,16 +42,16 @@ const Investment = () => {
           
           <div className={`flex-1 flex ${styles.flexCenter} p-4 rounded-md shadow-md`}>
             {/*Content for the right card*/}
-            <div className="text-left w-80">
+            <div className="text-left  flex-col">
               
               <div className="text-[48px] font-normal leading-[62.4px] capitalize second_purple_gradient mt-10">
                 7 Dias
               </div>
-              <div className="font-lato text-[20.446px] uppercase leading-[26.58px] second_purple_gradient">
+              <div className="w-80 font-lato text-[18px] sm:text-[20px] uppercase leading-[26.58px] second_purple_gradient">
                 DE GARANTIA INCONDICIONAL
               </div>
 
-              <div className="mt-10 mb-16 text-white">
+              <div className="flex flex-1 mt-10 mb-20 text-dimWhite">
                 Caso, por algum motivo, achar que o conteúdo do curso não é
                 adequado para o seu perfil, você pode entrar em contato conosco
                 dentro de 7 dias e receberá o reembolso integral do seu

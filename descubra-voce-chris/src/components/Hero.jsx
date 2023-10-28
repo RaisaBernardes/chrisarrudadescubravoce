@@ -1,8 +1,11 @@
 import styles, { layout } from "../style";
 import { hero1 } from "../assets";
 import CTA from "./CTA";
+import { motion }  from 'framer-motion'
 
-const Hero = () => (
+const Hero = () =>{
+
+return (
   <section id="home" className={`flex flex-col md:flex-row  ${styles.paddingY} sm:mt-20 sm:mb-20`}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
        <img
@@ -13,36 +16,37 @@ const Hero = () => (
       <div className="xs:flex absolute z-[0] w-[50%] h-[50%] top-0 md:-right-[20%] purple__gradient" />
    
 
-      <div className="z-[2] flex-row justify-between items-center w-full md:flex hidden">
+      <motion.div  
+      className="z-[2] flex-row justify-between items-center w-full sm:flex hidden">
         <h1 className="flex-1 font-semibold text-[48px] sm:text-[56px] text-white ss:leading-[120%] leading-[72.8px]">
-          Descubra sua <span className="hero-text-gradient text-[48px] sm:text-[56px] md:flex hidden"> verdadeira identidade
+          Descubra sua <span className="hero-text-gradient text-[48px] sm:text-[56px] sm:flex hidden"> verdadeira identidade
           </span>{" "}
         </h1>
-      </div>
+      </motion.div>
 
-      <h1 className="font-semibold text-[48px] sm:text-[56px] text-white ss:leading-[120%] leading-[72.8px] w-full md:flex hidden">
+      <h1 className="font-semibold text-[48px] sm:text-[56px] text-white ss:leading-[120%] leading-[72.8px] w-full sm:flex hidden">
         e liberte o poder da <br className="sm:block hidden" />{" "} sua imagem
       </h1>
 
-      {/* mobile text */}
-      <div className="md:hidden flex max-w-[600px]">
-        <h1 className="flex-1 font-semibold text-[48px] sm:text-[56px] text-white text-left z-[1]">
-        Descubra sua <span className="hero-text-gradient">verdadeira identidade</span> e liberte o poder da sua imagem
+      {/* mobile section */}
+      <div className="sm:hidden flex h-screen bg-hero-background bg-cover bg-center items-end z-[1]">
+        <h1 className="flex-1 font-semibold text-[36px] sm:text-[56px] text-white text-left z-[2] leading-[130%]">
+        Descubra sua verdadeira identidade e liberte o poder da sua imagem
         </h1>
-        <div className="xs:flex absolute z-[0] w-[50%] h-[50%] top-0 md:-right-[20%] purple__gradient" />
+        
       </div>
 
 
-      <p className={`${styles.heading3} max-w-[540px] mt-8  z-[2]`}>
-      Domine a análise facial comportamental e embarque 
-      em uma jornada fascinante de autodescoberta. 
+      <p className={`${styles.heading3} max-w-[540px] mt-8 z-[2]`}>
+      <span className="hidden sm:flex">Domine a análise facial comportamental e embarque 
+      em uma jornada fascinante de autodescoberta.</span>
       Descubra os segredos presentes em seu rosto e 
       crie uma marca pessoal magnética!
       </p>
       
        <CTA styles='mt-8' label='Eu quero ser magnética!'/>
        <p className={`${styles.paragraph_small} max-w-10px] mt-8`}>
-       Compra 100% segura <br/>Garantia incondicional de 7 dias
+       Compra 100% segura <br className="hidden md:flex"/>Garantia incondicional de 7 dias
        </p>
     </div>
 
@@ -59,5 +63,6 @@ const Hero = () => (
     </div>
   </section>
 );
+}
 
 export default Hero;

@@ -24,7 +24,7 @@ const HowWorks = () => {
   const { title, text } = text_section4;
 
   return (
-    <section id="modules" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <section id="modules" className={`flex md:flex-row flex-col py-16`}>
       <div className="flex flex-col sm:grid justify-items-start">
         <div className={`${layout.sectionInfo} flex-row`}>
           <h2 className={`${styles.heading2} mt-8`}>{title}</h2>  
