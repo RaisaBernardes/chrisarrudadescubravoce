@@ -29,7 +29,7 @@ return (
       </h1>
 
       {/* mobile section */}
-      <div className="sm:hidden flex h-screen bg-hero-background bg-cover bg-center items-end z-[1]">
+      <div className="sm:hidden flex h-screen bg-hero-background bg-cover bg-center items-end z-[1] w-full">
         <h1 className="flex-1 font-semibold text-[36px] sm:text-[56px] text-white text-left z-[2] leading-[130%]">
         Descubra sua verdadeira identidade e liberte o poder da sua imagem
         </h1>
