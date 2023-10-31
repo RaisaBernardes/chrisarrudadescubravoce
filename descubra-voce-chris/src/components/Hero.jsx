@@ -38,7 +38,7 @@ return (
         />
         <div className="flex absolute z-[0] w-[100%] h-[100%] top-0 purple__gradient md:hidden" />
        
-        <div className="absolute inset-x-0 bottom-0 h-[65%] xxs:h-[55%] xs:h-[45%] ss:h-[30%] z-[20]">
+        <div className="absolute inset-x-0 bottom-0 h-[60%] xxs:h-[55%] xs:h-[45%] ss:h-[30%] z-[20]">
           <h1 className="flex-1 font-semibold text-[36px] sm:text-[56px] text-white text-left  leading-[130%]   ">
           Descubra sua verdadeira identidade e liberte o poder da sua imagem
           </h1>

@@ -1,5 +1,6 @@
 import React from "react";
 import styles, { layout } from "../style";
+import CTA2 from "./CTA2";
 import CTA from "./CTA";
 
 /* title: Acesso ao Descubra Você*/
@@ -14,9 +15,9 @@ const Investment = () => {
 
       <div className={`flex flex-col justify-center items-center mt-20`}>
         <div className={`flex sm:flex-row flex-col sm:space-x-16  ${styles.flexCenter}`}>
-          <div className={`border_card pt-8 pb-8 px-4 sm:px-16 rounded-md shadow-md text-center`}>
+          <div className={`border_card pt-8 pb-8 px-8 sm:px-16 rounded-md shadow-md text-center`}>
             {/*Content for the left card*/}
-            <div className={`text-2xl font-semibold uppercase second_purple_gradient`}>
+            <div className={`text-2xl font-normal uppercase second_purple_gradient`}>
               VALOR PROMOCIONAL
             </div>
             <div className={`mt-10 text-center`}>
@@ -36,6 +37,7 @@ const Investment = () => {
             {/*Button*/}
             <div className="flex justify-center">
               <CTA styles="mt-8" label="Increva-se agora!" />
+              <CTA2 styles="mt-8" label="Increva-se agora!" className="z-[1] hidden sm:block" />
             </div>
           </div>
           
