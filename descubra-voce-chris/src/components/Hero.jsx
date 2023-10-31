@@ -7,7 +7,7 @@ import CTA2 from "./CTA2";
 const Hero = () =>{
 
 return (
-  <section id="home" className={`flex flex-col md:flex-row  ${styles.paddingY} sm:mt-20 sm:mb-20`}>
+  <section id="home" className={`flex flex-col md:flex-row mb-16 xxs:mb-0 sm:mb-20 sm:mt-20`}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
        <img
         src={hero1}
@@ -20,7 +20,7 @@ return (
       <motion.div  
       className="z-[2] flex-row justify-between items-center w-full sm:flex hidden">
         <h1 className="flex-1 font-semibold text-[48px] sm:text-[56px] text-white ss:leading-[120%] leading-[72.8px]">
-          Descubra sua <span className="hero-text-gradient text-[48px] sm:text-[56px] sm:flex hidden"> verdadeira identidade
+          Descubra sua <span className="second_purple_gradient text-[48px] sm:text-[56px] sm:flex hidden"> verdadeira identidade
           </span>{" "}
         </h1>
       </motion.div>
@@ -30,7 +30,7 @@ return (
       </h1>
 
       {/* mobile section */}
-      <div className="sm:hidden flex h-screen w-full relative mt-0">
+      <div className="sm:hidden flex h-screen w-full relative mt-0 xs:mb-16 ss:mb-24">
         <img
           src={hero1}
           alt="hero1"
@@ -39,7 +39,7 @@ return (
         <div className="flex absolute z-[0] w-[100%] h-[100%] top-0 purple__gradient md:hidden" />
        
         <div className="absolute inset-x-0 bottom-0 h-[60%] xxs:h-[55%] xs:h-[45%] ss:h-[30%] z-[20]">
-          <h1 className="flex-1 font-semibold text-[36px] sm:text-[56px] text-white text-left  leading-[130%]   ">
+          <h1 className="flex-1 font-semibold text-[36px] sm:text-[56px] text-white text-left leading-[130%] ">
           Descubra sua verdadeira identidade e liberte o poder da sua imagem
           </h1>
           <p className={`${styles.heading3} max-w-[540px] mt-8 z-[2]`}>
@@ -48,9 +48,7 @@ return (
           </p>
           <CTA2 styles='mt-8' label='Eu quero ser magnética!'/>
         </div>
-
       </div>
-      
       {/* end mobile section */}
 
       <p className={`${styles.heading3} max-w-[540px] mt-8 z-[2] `}>

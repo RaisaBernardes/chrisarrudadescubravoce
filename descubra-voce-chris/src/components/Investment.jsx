@@ -36,8 +36,8 @@ const Investment = () => {
 
             {/*Button*/}
             <div className="flex justify-center">
-              <CTA styles="mt-8" label="Increva-se agora!" />
-              <CTA2 styles="mt-8" label="Increva-se agora!" className="z-[1] hidden sm:block" />
+              <CTA styles="mt-8" label="Inscreva-se agora!" />
+              <CTA2 styles="mt-8" label="Inscreva-se agora!" className="z-[1] hidden sm:block" />
             </div>
           </div>
           
