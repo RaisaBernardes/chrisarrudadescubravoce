@@ -7,7 +7,7 @@ import CTA2 from "./CTA2";
 const Hero = () =>{
 
 return (
-  <section id="home" className={`flex flex-col md:flex-row mb-16 xxs:mb-0 sm:mb-20 sm:mt-20`}>
+  <section id="home" className={`flex flex-col md:flex-row mb-16 xxs:mb-0 xs:mb-20 ss:mb-40`}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
        <img
         src={hero1}
