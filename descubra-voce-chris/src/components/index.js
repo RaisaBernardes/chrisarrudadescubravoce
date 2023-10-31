@@ -9,6 +9,7 @@ import Hero from './Hero';
 import HowWorks from './HowWorks';
 import Investment from './Investment';
 import Learning from './Learning';
+import CTA2 from './CTA2';
 
 export {
     Benefits,
@@ -21,5 +22,6 @@ export {
     Learning,
     Ending,
     Faq,
-    Footer
+    Footer,
+    CTA2
 }

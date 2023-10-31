@@ -1,6 +1,6 @@
 import styles from './style';
 
-import { Hero, ForWho, Learning, Benefits, HowWorks, Investment, Chris, Faq, Ending, CTA, Footer } from './components';
+import { Hero, ForWho, Learning, Benefits, HowWorks, Investment, Chris, Faq, Ending, Footer } from './components';
 
 const App = () => {
   return (

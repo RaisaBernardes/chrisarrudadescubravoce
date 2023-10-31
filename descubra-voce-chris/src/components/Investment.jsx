@@ -12,9 +12,9 @@ const Investment = () => {
         </h1>
       </div>
 
-      <div className={`flex flex-col justify-center items-center h-screen mt-40 sm:mt-0 `}>
-        <div className={`flex sm:flex-row flex-col space-x-10 ${styles.flexCenter}`}>
-          <div className={`border_card p-8 pr:8 pl:8 lg:pr-16 lg:pl-16 rounded-md shadow-md text-center`}>
+      <div className={`flex flex-col justify-center items-center mt-20`}>
+        <div className={`flex sm:flex-row flex-col sm:space-x-16  ${styles.flexCenter}`}>
+          <div className={`border_card pt-8 pb-8 px-4 sm:px-16 rounded-md shadow-md text-center`}>
             {/*Content for the left card*/}
             <div className={`text-2xl font-semibold uppercase second_purple_gradient`}>
               VALOR PROMOCIONAL
@@ -40,21 +40,21 @@ const Investment = () => {
           </div>
           
           
-          <div className={`flex-1 flex ${styles.flexCenter} p-4 rounded-md shadow-md`}>
+          <div className={`flex-1 flex md:p-4 rounded-md shadow-md`}>
             {/*Content for the right card*/}
-            <div className="text-left  flex-col">
+            <div className="justify-start text-center sm:text-left flex-col">
               
-              <div className="text-[48px] font-normal leading-[62.4px] capitalize second_purple_gradient mt-10">
+              <div className="text-[45px] sm:text-[48px] font-normal capitalize second_purple_gradient mt-10">
                 7 Dias
               </div>
-              <div className="w-80 font-lato text-[18px] sm:text-[20px] uppercase leading-[26.58px] second_purple_gradient">
+              <div className="w-80 sm:w-80 font-lato text-[18px] sm:text-[20px] uppercase leading-[26.58px] second_purple_gradient">
                 DE GARANTIA INCONDICIONAL
               </div>
 
-              <div className="flex flex-1 mt-10 mb-20 text-dimWhite">
+              <div className="flex flex-1 mt-10 mb-20 text-dimWhite w-80">
                 Caso, por algum motivo, achar que o conteúdo do curso não é
-                adequado para o seu perfil, você pode entrar em contato conosco
-                dentro de 7 dias e receberá o reembolso integral do seu
+                adequado <br/> para o seu perfil, você pode entrar em contato conosco
+                dentro de 7 dias e <br/> receberá o reembolso integral do seu
                 investimento.
               </div>
             

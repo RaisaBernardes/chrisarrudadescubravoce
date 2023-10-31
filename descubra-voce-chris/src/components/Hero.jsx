@@ -2,6 +2,7 @@ import styles, { layout } from "../style";
 import { hero1 } from "../assets";
 import CTA from "./CTA";
 import { motion }  from 'framer-motion'
+import CTA2 from "./CTA2";
 
 const Hero = () =>{
 
@@ -29,34 +30,42 @@ return (
       </h1>
 
       {/* mobile section */}
-      <div className="sm:hidden flex h-screen  items-end z-[1] w-full">
-
+      <div className="sm:hidden flex h-screen z-[1] w-full relative mt-0">
         <img
           src={hero1}
           alt="hero1"
-          className="flex-1 md:hidden absolute z-[1] w-[150%] h-[150%]  object-scale-down "
+          className="flex-1 md:hidden absolute z-[1] w-[100%] object-scale-down min-w-[350px] "
         />
-        <div className="xs:flex absolute z-[0] w-[100%] h-[100%] top-0 purple__gradient md:hidden" />
+        <div className="xs:flex absolute z-[0] w-[100%] h-[50%] top-0 purple__gradient md:hidden" />
        
+        <div className="absolute inset-x-0 bottom-0">
+          <h1 className="flex-1 font-semibold text-[36px] sm:text-[56px] text-white text-left z-[2] leading-[130%]   ">
+          Descubra sua verdadeira identidade e liberte o poder da sua imagem
+          </h1>
+          <p className={`${styles.heading3} max-w-[540px] mt-8 z-[2]`}>
+            Descubra os segredos presentes em seu rosto e 
+            crie uma marca pessoal magnética!
+          </p>
+          <CTA2 styles='mt-8' label='Eu quero ser magnética!'/>
+        </div>
 
-        <h1 className="flex-1 font-semibold text-[36px] sm:text-[56px] text-white text-left z-[2] leading-[130%]">
-        Descubra sua verdadeira identidade e liberte o poder da sua imagem
-        </h1>
-        
       </div>
+      
+      {/* end mobile section */}
 
-
-      <p className={`${styles.heading3} max-w-[540px] mt-8 z-[2]`}>
+      <p className={`${styles.heading3} max-w-[540px] mt-8 z-[2] `}>
       <span className="hidden sm:flex">Domine a análise facial comportamental e embarque 
       em uma jornada fascinante de autodescoberta.</span>
-      Descubra os segredos presentes em seu rosto e 
-      crie uma marca pessoal magnética!
+      <span className="hidden sm:flex">Descubra os segredos presentes em seu rosto e 
+      crie uma marca pessoal magnética!</span>
       </p>
       
-       <CTA styles='mt-8' label='Eu quero ser magnética!'/>
-       <p className={`${styles.paragraph_small} max-w-10px] mt-8`}>
-       Compra 100% segura <br className="hidden md:flex"/>Garantia incondicional de 7 dias
-       </p>
+    
+      <CTA styles='mt-8' label='Eu quero ser magnética!'/>
+        <p className={`${styles.paragraph_small} max-w-10px] mt-8 hidden md:flex`}>
+        Compra 100% segura <br className="hidden md:flex"/>Garantia incondicional de 7 dias
+        </p>
+     
     </div>
 
     {/*Right side*/}
