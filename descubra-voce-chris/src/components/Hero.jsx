@@ -30,16 +30,16 @@ return (
       </h1>
 
       {/* mobile section */}
-      <div className="sm:hidden flex h-screen z-[1] w-full relative mt-0">
+      <div className="sm:hidden flex h-screen w-full relative mt-0">
         <img
           src={hero1}
           alt="hero1"
-          className="flex-1 md:hidden absolute z-[1] w-[100%] object-scale-down min-w-[350px] "
+          className="flex-1 md:hidden absolute z-[10] w-[100%] object-scale-down min-w-[350px]"
         />
-        <div className="xs:flex absolute z-[0] w-[100%] h-[50%] top-0 purple__gradient md:hidden" />
+        <div className="flex absolute z-[0] w-[100%] h-[100%] top-0 purple__gradient md:hidden" />
        
-        <div className="absolute inset-x-0 bottom-0">
-          <h1 className="flex-1 font-semibold text-[36px] sm:text-[56px] text-white text-left z-[2] leading-[130%]   ">
+        <div className="absolute inset-x-0 bottom-0 h-[65%] xxs:h-[55%] xs:h-[45%] ss:h-[30%] z-[20]">
+          <h1 className="flex-1 font-semibold text-[36px] sm:text-[56px] text-white text-left  leading-[130%]   ">
           Descubra sua verdadeira identidade e liberte o poder da sua imagem
           </h1>
           <p className={`${styles.heading3} max-w-[540px] mt-8 z-[2]`}>
