@@ -2,7 +2,7 @@ import { features, text_section2 } from '../constants'
 import styles, { layout } from '../style';
 
 const FeatureCard = ({icon, title, content, index}) => (
-  <div className={`flex flex-row p-6 rounded-[5px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card md:h-[200px] lg:h-[180px] items-center`}>
+  <div className={`flex flex-row p-6 rounded-[5px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card md:h-[200px] lg:h-[180px] items-center z-[20]`}>
     <div className='flex items-start'>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} dimPurple`}>
         <img src={icon} alt='icon' className='w-[40%] h-[40%] object-contain'/>
@@ -25,7 +25,7 @@ const ForWho = () => {
   const { title, text } = text_section2;
 
   return (
-    <section id="features" className={`flex-1 flex-row items-start sm:mb-20 mt-20 xxs:mt-0`}>
+    <section id="features" className={`flex-1 flex-row items-start sm:mb-20 mt-20 xxs:mt-0 z-[20]`}>
       <div className="flex flex-col md:flex-row md:justify-items-start ">
         <div className={`flex-col flex-1`}>
           <h2 className={`${styles.heading2} flex flex-1`}>{title}</h2>

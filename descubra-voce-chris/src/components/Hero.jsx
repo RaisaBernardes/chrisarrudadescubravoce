@@ -8,17 +8,15 @@ const Hero = () =>{
 
 return (
   <section id="home" className={`flex flex-col md:flex-row mb-16 xxs:mb-0 xs:mb-20 ss:mb-40`}>
-    <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-       <img
+    <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
+    <img
         src={hero1}
         alt="hero1"
         className="hidden md:flex absolute z-[1] w-[150%] h-[150%] -right-[20%] object-scale-down "
       />
-      <div className="xs:flex absolute z-[0] w-[50%] h-[50%] top-0 md:-right-[20%] purple__gradient" />
-   
 
       <motion.div  
-      className="z-[2] flex-row justify-between items-center w-full sm:flex hidden">
+      className="z-[2] flex-row justify-between items-center w-full sm:flex hidden md:pt-20">
         <h1 className="flex-1 font-semibold text-[48px] sm:text-[56px] text-white ss:leading-[120%] leading-[72.8px]">
           Descubra sua <span className="second_purple_gradient text-[48px] sm:text-[56px] sm:flex hidden"> verdadeira identidade
           </span>{" "}
@@ -26,7 +24,7 @@ return (
       </motion.div>
 
       <h1 className="font-semibold text-[48px] sm:text-[56px] text-white ss:leading-[120%] leading-[72.8px] w-full sm:flex hidden">
-        e liberte o poder da <br className="sm:block hidden" />{" "} sua imagem
+        e liberte o poder da <br className="block md:hidden lg:block" />{" "}  sua imagem
       </h1>
 
       {/* mobile section */}
@@ -66,16 +64,9 @@ return (
      
     </div>
 
-    {/*Right side*/}
+    {/*Right side effect*/}
     <div className={`flex-1 ${styles.flexCenter} my-0 md:my-10 relative`}>
-     {/* <img
-        src={hero1}
-        alt="hero1"
-        className="flex md:hidden w-[100%] h-[100%] relative z-[5]"
-      />  */}
-
-
-      <div className="absolute z-[0] w-[80%] h-[80%] top-0 purple__gradient" />
+      <div className="absolute z-[0] w-[80%] h-[80%]  purple__gradient" />
     </div>
   </section>
 );
