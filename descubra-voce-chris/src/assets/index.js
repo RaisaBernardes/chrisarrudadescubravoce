@@ -1,4 +1,5 @@
 import hero1 from "./hero1.png";
+import heromob from "./heromob.png";
 import icon_connect from "./icon_connect.svg";
 import icon_star from "./icon_star.svg";
 import icon_diamond from "./icon_diamond.svg";
@@ -27,6 +28,7 @@ export {
   icon_muscle,
   icon_mirror,
   hero1,
+  heromob,
   chris_who,
   art_backside,
   icon_check,

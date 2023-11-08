@@ -1,5 +1,5 @@
 import styles, { layout } from "../style";
-import { hero1 } from "../assets";
+import { hero1, heromob } from "../assets";
 import CTA from "./CTA";
 import { motion }  from 'framer-motion'
 import CTA2 from "./CTA2";
@@ -12,7 +12,7 @@ return (
     <img
         src={hero1}
         alt="hero1"
-        className="hidden md:flex absolute z-[1] w-[150%] h-[150%] -right-[20%] object-scale-down "
+        className="hidden md:flex absolute z-[1] -right-[5%] object-scale-down mt-80"
       />
 
       <motion.div  
@@ -24,14 +24,14 @@ return (
       </motion.div>
 
       <h1 className="font-semibold text-[48px] sm:text-[56px] text-white ss:leading-[120%] leading-[72.8px] w-full sm:flex hidden">
-        e liberte o poder da <br className="block md:hidden lg:block" />{" "}  sua imagem
+        e liberte o poder da <br className="block" />{" "}  sua imagem
       </h1>
 
       {/* mobile section */}
       <div className="sm:hidden flex h-screen w-full relative mt-0 xs:mb-16 ss:mb-24">
         <img
-          src={hero1}
-          alt="hero1"
+          src={heromob}
+          alt="heromob"
           className="flex-1 md:hidden absolute z-[10] w-[100%] object-scale-down min-w-[350px]"
         />
         <div className="flex absolute z-[0] w-[100%] h-[100%] top-0 purple__gradient md:hidden" />
@@ -63,11 +63,7 @@ return (
         </p>
      
     </div>
-
-    {/*Right side effect*/}
-    <div className={`flex-1 ${styles.flexCenter} my-0 md:my-10 relative`}>
-      <div className="absolute z-[0] w-[80%] h-[80%]  purple__gradient" />
-    </div>
+   
   </section>
 );
 }
