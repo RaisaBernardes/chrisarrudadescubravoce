@@ -3,13 +3,14 @@ import { hero1, heromob } from "../assets";
 import CTA from "./CTA";
 import { motion }  from 'framer-motion'
 import CTA2 from "./CTA2";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Hero = () =>{
 
 return (
   <section id="home" className={`flex flex-col md:flex-row mb-16 xxs:mb-0 xs:mb-20 ss:mb-40`}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
-    <img
+    <LazyLoadImage
         src={hero1}
         alt="hero1"
         className="hidden md:flex absolute z-[1] -right-[5%] object-scale-down mt-80"
@@ -29,7 +30,7 @@ return (
 
       {/* mobile section */}
       <div className="sm:hidden flex h-screen w-full relative mt-0 xs:mb-16 ss:mb-24">
-        <img
+        <LazyLoadImage
           src={heromob}
           alt="heromob"
           className="flex-1 md:hidden absolute z-[10] w-[100%] object-scale-down min-w-[350px]"
