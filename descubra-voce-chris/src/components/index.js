@@ -10,6 +10,7 @@ import HowWorks from './HowWorks';
 import Investment from './Investment';
 import Learning from './Learning';
 import CTA2 from './CTA2';
+import ImageComponent from './ImageComponent';
 
 export {
     Benefits,
@@ -23,5 +24,6 @@ export {
     Ending,
     Faq,
     Footer,
-    CTA2
+    CTA2,
+    ImageComponent
 }

@@ -178,9 +178,13 @@
 
 
 .purple__gradient {
-  border-radius: 140px;
-  background: var(--gradiente-background-photos, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, #150E22 0%, #DB00FB 42.19%, #51306B 79.17%, #FFF 96.88%));
-  filter: blur(250px);
+  border-radius: 109.6px;
+  background: var(--Gradiente-background-photos, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(90deg, #150E22 0%, #DB00FB 42.19%, #51306B 79.17%, #FFF 96.88%));
+  filter: blur(195.7137451171875px);
+  width: 405.021px;
+  height: 355.97px;
+  transform: rotate(-90.112deg);
+  flex-shrink: 0;
 }
 
 .white__gradient {

@@ -1,6 +1,7 @@
 import { chris_who } from "../assets";
 import { text_chris } from "../constants";
 import styles, { layout } from "../style";
+import ImageComponent from "./ImageComponent"
 
 const Chris = () => {
   // Access properties of section's text
@@ -16,9 +17,10 @@ const Chris = () => {
         </p>
       </div>
 
+
       {/*Right side*/}
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative hidden sm:flex`}>
-        <img
+      <ImageComponent 
           src={chris_who}
           alt="chrisWho"
           className="w-[100%] h-[100%] z-[5] -right-[60%] md:-right-[30%] object-scale-down min-w-[350px] "
