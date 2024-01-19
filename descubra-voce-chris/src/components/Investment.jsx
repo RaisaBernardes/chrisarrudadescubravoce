@@ -9,7 +9,7 @@ const Investment = () => {
     <section id="investment" className={`flex flex-col mt-20 mb-20`}>
       <div className={`flex justify-center items-center `}>
         <h1 className={`${styles.heading2} text-center w-[300px] sm:w-full`}>
-          Acesso ao Descubra Você
+          Acesso ao Curso <br/>Decifre seu Rosto
         </h1>
       </div>
 
