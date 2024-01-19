@@ -17,31 +17,31 @@ import {
 //Section 2
 
 export const text_section2 = {
-    title: '“Decifre seu rosto” para ativar todo o seu potencial.',
-    text: "Em um mundo onde a primeira impressão conta muito, o seu rosto torna-se o elemento mais importante da sua marca pessoal. É tão verdade que, ao pensar em alguém, a primeira coisa que vem a mente é o rosto da pessoa. O rosto é o ponto central que molda a percepção das pessoas sobre você. O que será que seu rosto diz e transmite?",
+    title: 'Decifre seu rosto para ativar todo o seu potencial.',
+    text: "Em um mundo onde a primeira impressão é um fator crítico, seu rosto emerge como o elemento chave da sua marca pessoal. Frequentemente, ao pensarmos em alguém, é o rosto que nos vem à mente primeiro. Este curso destaca como seu rosto é o ponto central na percepção que os outros têm sobre você, moldando não apenas como você é visto, mas também como você se vê.",
 }
 
 export const features = [
   {
     id: "feature-1",
-    icon: icon_connect,
-    title: "Destaque-se na profissão",
+    icon: icon_star,
+    title: "Destaque-se na sua Profissão",
     content:
-      "Sua imagem facial influencia em como as pessoas te enxergam e confiam em você. Tenha uma imagem de impacto positivo",
+      "Sua imagem facial influencia em como as pessoas te enxergam e confiam em você. Tenha uma imagem de impacto positivo!",
   },
   {
     id: "feature-2",
-    icon: icon_star,
-    title: "Se descubra",
+    icon: icon_connect,
+    title: "Se Descubra",
     content:
-      "Entenda o que seu rosto mostra das suas tendências comportamentais e transmite da sua  personalidade para outras pessoas.",
+      "Entenda o que seu rosto mostra da sua personalidade e tendências comportamentais para as pessoas ao seu redor.",
   },
   {
     id: "feature-3",
     icon: icon_diamond,
-    title: "Transmita o impacto que deseja",
+    title: "Transmita o Impacto que Deseja",
     content:
-      "Aprenda a usar os elementos faciais ao seu favor para ter o impacto que você deseja com sua imagem",
+      "Aprenda a usar os elementos faciais ao seu favor para ter o impacto que você deseja com sua imagem.",
   },
 ];
 
@@ -59,28 +59,28 @@ export const learning = [
     id: "learning-1",
     title: "Leitura clara da sua personalidade",
     content:
-      "Compreenda como seu rosto pode comunicar com precisão quem você é. ",
+      "Você vai compreender como seu rosto pode comunicar com precisão quem você é! ",
     icon: icon_brain,
   },
   {
     id: "learning-2",
     title: "Estratégia visual impactante: ",
     content:
-      "Você vai descobrir o que seus traços faciais podem revelar sobre você e como utilizar isso ao seu favor.",
+      "Você vai descobrir o que seus traços faciais revelam sobre você e como utilizar isso ao seu favor!",
     icon: icon_eye,
   },
   {
     id: "learning-3",
     title: "Autoconfiança com seu rosto",
     content:
-      "Você vai saber como valorizar a seu rosto, encontrar seus pontos fortes e aumentar a sua autoestima. Sentindo-se radiante em sua própria pele.",
+      "Você vai saber como valorizar seu rosto, encontrar seus pontos fortes e aumentar a sua autoestima, sentindo-se radiante em sua própria pele!",
     icon: icon_muscle,
   },
   {
     id: "learning-4",
     title: "Visual autêntico",
     content:
-      "Vai conseguir ter uma imagem transmita sua essência e a imagem desejada.",
+      "Você vai conseguir ter uma imagem que transmita sua essência e a imagem desejada!",
     icon: icon_mirror,
   },
 ];
