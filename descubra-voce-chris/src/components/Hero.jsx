@@ -28,7 +28,7 @@ return (
       <span className="hidden sm:flex"></span>
       </p>
       
-      <CTA styles='mt-8' label='Acessar curso'/>
+      <CTA styles='mt-8' label='Inscreva-se agora!'/>
         <p className={`${styles.paragraph_small} max-w-10px mt-8 hidden md:flex`}>
         Compra 100% segura <br className="hidden md:flex"/>Garantia incondicional de 7 dias
         </p>

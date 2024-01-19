@@ -193,7 +193,8 @@
 }
 
 .second_purple_gradient {
-  background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #F3DEFA 0.89%, #E6BEF5 17.23%, #DA9DF0 42.04%, #CE7DEB 55.12%, #C15CE6 71.54%, #A533CF 100%);
+  background: linear-gradient(95deg, #D0ADE1 8.18%, #AE78C7 38.41%, #B672CD 66.83%, #9445B8 91.85%);
+  /* background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #F3DEFA 0.89%, #E6BEF5 17.23%, #DA9DF0 42.04%, #CE7DEB 55.12%, #C15CE6 71.54%, #A533CF 100%); */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
