@@ -17,31 +17,31 @@ import {
 //Section 2
 
 export const text_section2 = {
-    title: '“Descubra Você” para ativar todo o seu potencial.',
-    text: "Você já sentiu que há mais em você do que o mundo pode ver? Você sabe que é capaz de ser melhor mas não sabe por onde começar? Se você anseia por desvendar suas habilidades, resgatar sua essência e compreender a força de sua própria imagem, este é o seu caminho. Imagine entender o que seu rosto transmite, construir uma estratégia de imagem poderosa e despertar sua autoestima interior e exterior. Seja magnética em seus negócios, relacionamentos e vida.",
+    title: '“Decifre seu rosto” para ativar todo o seu potencial.',
+    text: "Em um mundo onde a primeira impressão conta muito, o seu rosto torna-se o elemento mais importante da sua marca pessoal. É tão verdade que, ao pensar em alguém, a primeira coisa que vem a mente é o rosto da pessoa. O rosto é o ponto central que molda a percepção das pessoas sobre você. O que será que seu rosto diz e transmite?",
 }
 
 export const features = [
   {
     id: "feature-1",
     icon: icon_connect,
-    title: "Conecte-se consigo mesma",
+    title: "Destaque-se na profissão",
     content:
-      "Fortaleça o vinculo com sua essência, descobrindo sua singularidade e todo o seu potencial escondido.",
+      "Sua imagem facial influencia em como as pessoas te enxergam e confiam em você. Tenha uma imagem de impacto positivo",
   },
   {
     id: "feature-2",
     icon: icon_star,
-    title: "Se conheça",
+    title: "Se descubra",
     content:
-      "Domine as técnicas que decifram tendências comportamentais faciais e impulsionesua imagem e autoconhecimento.",
+      "Entenda o que seu rosto mostra das suas tendências comportamentais e transmite da sua  personalidade para outras pessoas.",
   },
   {
     id: "feature-3",
     icon: icon_diamond,
-    title: "Desperte uma autoconfiança magnética através de sua imagem",
+    title: "Transmita o impacto que deseja",
     content:
-      "Realce a beleza do seu rosto enquanto harmoniza sua personalidade interna com a externa, liberando sua autenticidade.",
+      "Aprenda a usar os elementos faciais ao seu favor para ter o impacto que você deseja com sua imagem",
   },
 ];
 
@@ -57,26 +57,30 @@ export const text_section3 = {
 export const learning = [
   {
     id: "learning-1",
+    title: "Leitura clara da sua personalidade",
     content:
-      "Você aprenderá técnicas avançadas e práticas de análise facial e comportamental com uma profissional especialista da área e neurocientista.",
+      "Compreenda como seu rosto pode comunicar com precisão quem você é. ",
     icon: icon_brain,
   },
   {
     id: "learning-2",
+    title: "Estratégia visual impactante: ",
     content:
       "Você vai descobrir o que seus traços faciais podem revelar sobre você e como utilizar isso ao seu favor.",
     icon: icon_eye,
   },
   {
     id: "learning-3",
+    title: "Autoconfiança com seu rosto",
     content:
-      "Você vai saber como valorizar a sua identidade, para aumentar a sua autoconfiança e passando a se sentir empoderada e radiante em sua própria pele.",
+      "Você vai saber como valorizar a seu rosto, encontrar seus pontos fortes e aumentar a sua autoestima. Sentindo-se radiante em sua própria pele.",
     icon: icon_muscle,
   },
   {
     id: "learning-4",
+    title: "Visual autêntico",
     content:
-      "Você aprenderá como escolher um visual que transmita a mensagem desejada, permitindo que sua imagem externa reflita a sua verdadeira essência.",
+      "Vai conseguir ter uma imagem transmita sua essência e a imagem desejada.",
     icon: icon_mirror,
   },
 ];

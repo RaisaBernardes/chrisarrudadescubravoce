@@ -7,8 +7,12 @@ const Cards = ({ content, icon }) => (
       alt="icon"
       className="w-[60px] h-[55px] object-contain mt-2 sm:mt-5"
     />
+
+    {/* <h4 className='font-semibold text-white text-center text-[18px] leading-[24px] mb-0 mt-2 max-w-[400px]'>
+      {title}
+    </h4> */}
    
-    <p className="font-normal text-center text-[16px] leading-[130%] text-white mt-5 sm:mt-10 mr-2 ml-2 mb-10">
+    <p className="font-normal text-center text-[16px] leading-[130%] text-white mt-5 sm:mt-5 mr-2 ml-2 mb-10">
       {content}
     </p>
   </div>

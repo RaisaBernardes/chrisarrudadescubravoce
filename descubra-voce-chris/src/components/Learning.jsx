@@ -6,7 +6,7 @@ import Cards from './Cards';
 const Learning = () => {
 
   // Access properties of section's text
-  const { title, emphasis, text } = text_section3;
+  const { title, text } = text_section3;
 
   return (
     <section id="learning" className={`flex flex-col xs:mt-20 xs:mb-20 mt-20`}>
