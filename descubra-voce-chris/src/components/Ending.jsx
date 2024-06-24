@@ -1,7 +1,6 @@
 import React from "react";
 import CTA from "./CTA";
 import CTA2 from "./CTA2";
-//Venha embarcar nessa jornada de autodescoberta e transformação!
 
 const Ending = () => {
   return (
@@ -13,8 +12,8 @@ const Ending = () => {
 
           {/*efeito*/}
 
-          <CTA styles="mt-6" label="Inscreva-se já!" className="z-[1]" />
-          <CTA2 styles="mt-6" label="Inscreva-se já!" className="z-[1] hidden sm:block" />
+          <CTA styles="mt-7" label="Inscreva-se já!" className="z-[1]" />
+          <CTA2 styles="mt-7" label="Inscreva-se já!" className="z-[1] hidden sm:block" />
         </div>
       
     </section>
