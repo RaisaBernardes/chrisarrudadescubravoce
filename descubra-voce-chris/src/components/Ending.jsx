@@ -13,8 +13,8 @@ const Ending = () => {
 
           {/*efeito*/}
 
-          <CTA styles="mt-8" label="Inscreva-se já!" className="z-[1]" />
-          <CTA2 styles="mt-8" label="Inscreva-se já!" className="z-[1] hidden sm:block" />
+          <CTA styles="mt-6" label="Inscreva-se já!" className="z-[1]" />
+          <CTA2 styles="mt-6" label="Inscreva-se já!" className="z-[1] hidden sm:block" />
         </div>
       
     </section>
