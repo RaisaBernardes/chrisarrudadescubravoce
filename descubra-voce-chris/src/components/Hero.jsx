@@ -61,9 +61,9 @@ return (
         </div>
         </AnimationWrapper>
       </div>
-        <AnimationWrapper delay={0.8}>
+        
           <div className="flex sm:hidden absolute z-[0] w-[100%] h-[100%] top-0 purple__gradient" />
-        </AnimationWrapper>
+       
 
         <div className="z-[20] mt-80 inset-x-0 space-y-8 pt-40 px-6 sm:hidden absolute xs:pt-10 ">
         <AnimationWrapper delay={1.0}>
