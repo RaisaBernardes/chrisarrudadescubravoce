@@ -51,7 +51,7 @@ return (
 
     {/* mobile section */}
       <div className="sm:hidden flex flex-col h-screen w-full relative mt-0 xxxs:mb-40 xxs:mb-8 xs:mb-60">
-      <AnimationWrapper delay={0.8}>
+      <AnimationWrapper delay={0.4}>
         <div className="flex-1 md:hidden relative z-[10]">
         <LazyLoadImage
           src={hero1}
