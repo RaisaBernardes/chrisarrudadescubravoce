@@ -51,6 +51,7 @@ return (
 
     {/* mobile section */}
       <div className="sm:hidden flex flex-col h-screen w-full relative mt-0 xxxs:mb-40 xxs:mb-8 xs:mb-60">
+      <AnimationWrapper delay={0.8}>
         <div className="flex-1 md:hidden relative z-[10]">
         <LazyLoadImage
           src={hero1}
@@ -58,9 +59,12 @@ return (
           className="flex-1 md:hidden absolute z-[10] w-[100%] object-scale-down min-w-[350px]"
         />
         </div>
+        </AnimationWrapper>
       </div>
+      
         <div className="flex sm:hidden absolute z-[0] w-[100%] h-[100%] top-0 purple__gradient" />
         <div className="z-[20] mt-80 inset-x-0 space-y-8 pt-40 px-6 sm:hidden absolute xs:pt-10 ">
+        <AnimationWrapper delay={1.0}>
           <h1 className="font-semibold text-[36px] sm:text-[56px] text-white leading-[130%] xs:mt-60">
           Decifre o que os <span className="second_purple_gradient text-[36px] sm:text-[56px] font-bold whitespace-nowrap">traços do seu rosto</span> revelam sobre você!
           </h1>
@@ -68,7 +72,9 @@ return (
           Embarque em uma jornada única para construir uma imagem facial que transmita quem você realmente é enquanto experimenta o verdadeiro autoconhecimento.
           </p>
           <CTA2 styles='mt-8' label='Acessar agora'/>
+          </AnimationWrapper>
         </div>
+        
       {/* end mobile section */}
    
   </section>
