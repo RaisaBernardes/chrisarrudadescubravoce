@@ -35,7 +35,7 @@ const HowWorks = () => {
           </p>
         </div>
 
-        <div className="flex-col max-w-[530px] ">
+        <div className="flex-col max-w-[530px]">
           {modules.map((module, index) => (
             <ModulesContainer key={module.id} {...module} index={index} /> //"..." spread all the features inside the object
           ))}

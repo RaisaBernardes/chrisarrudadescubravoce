@@ -5,7 +5,7 @@ import AnimationWrapper from '../ui/AnimationWrapper';
 const FeatureCard = ({icon, title, content, index}) => (
   <div className={`flex flex-row p-6 rounded-[5px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card md:h-[200px] lg:h-[180px] items-center z-[20]`}>
     <div className='flex items-start'>
-      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} dimPurple`}>
+      <div className={`w-[48px] h-[48px] rounded-full ${styles.flexCenter} bg-[#221331]`}>
         <img src={icon} alt='icon' className='w-[40%] h-[40%] object-contain'/>
       </div>
       <div className='flex-1 flex flex-col ml-2'>
