@@ -1,6 +1,7 @@
 import { art_backside } from "../assets";
 import { modules, text_section4 } from "../constants";
 import styles, { layout } from "../style";
+import AnimationWrapper from '../ui/AnimationWrapper';
 
 const ModulesContainer = ({ icon, title, content, index }) => (
   <div className="flex flex-row">
@@ -24,6 +25,7 @@ const HowWorks = () => {
   const { title, text } = text_section4;
 
   return (
+    <AnimationWrapper delay={0.2}>
     <section id="modules" className={`flex md:flex-row flex-col py-16`}>
       <div className="flex flex-col sm:grid justify-items-start">
         <div className={`${layout.sectionInfo} flex-row`}>
@@ -49,6 +51,7 @@ const HowWorks = () => {
         className="object-contain"/>
       </div>
     </section>
+    </AnimationWrapper>
   );
 };
 

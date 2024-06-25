@@ -1,5 +1,6 @@
 import { features, text_section2 } from '../constants'
 import styles, { layout } from '../style';
+import AnimationWrapper from '../ui/AnimationWrapper';
 
 const FeatureCard = ({icon, title, content, index}) => (
   <div className={`flex flex-row p-6 rounded-[5px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card md:h-[200px] lg:h-[180px] items-center z-[20]`}>
@@ -25,13 +26,13 @@ const ForWho = () => {
   const { title, text } = text_section2;
 
   return (
+    <AnimationWrapper delay={0.2}>
     <section id="features" className={`flex-1 flex-row items-start sm:mb-20 z-[20] mt-0 pt-20 lg:pt-0`}>
       <div className="flex flex-col md:flex-row md:justify-items-start ">
         <div className={`flex-col flex-1`}>
           <h2 className={`${styles.heading2} flex flex-1`}>{title}</h2>
           <p className={`${styles.paragraph} flex flex-1 mt-5 max-w-[530px]`}>{text}</p> 
         </div>
-      
         <div className={`flex mt-8 md:mt-0 flex-col max-w-[530px]`}>
           {features.map((feature, index) => (
             <FeatureCard key={feature.id} {...feature} index={index} /> //"..." spread all the features inside the object
@@ -39,6 +40,7 @@ const ForWho = () => {
         </div>
       </div>
     </section>
+    </AnimationWrapper>
   )
 }
 

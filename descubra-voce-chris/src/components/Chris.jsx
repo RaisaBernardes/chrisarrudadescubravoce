@@ -2,12 +2,15 @@ import { chris_who } from "../assets";
 import { text_chris } from "../constants";
 import styles, { layout } from "../style";
 import ImageComponent from "./ImageComponent"
+import AnimationWrapper from '../ui/AnimationWrapper';
 
 const Chris = () => {
   // Access properties of section's text
   const { title, text } = text_chris;
 
   return (
+    <AnimationWrapper delay={0.2}>
+
     <section id="text_chris" className={`flex sm:flex-row flex-col sm:items-center mt-20 md:mt-0` }>
       {/*Left side*/}
       <div className={`flex flex-1 flex-col`}>
@@ -28,6 +31,7 @@ const Chris = () => {
         <div className="absolute z-[0] w-[100%] h-[100%] top-0  who-photo-gradient" />
       </div>
     </section>
+    </AnimationWrapper>
   );
 };
 

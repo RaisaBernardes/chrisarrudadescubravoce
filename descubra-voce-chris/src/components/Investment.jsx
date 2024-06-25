@@ -2,10 +2,12 @@ import React from "react";
 import styles, { layout } from "../style";
 import CTA2 from "./CTA2";
 import CTA from "./CTA";
+import AnimationWrapper from '../ui/AnimationWrapper';
 
 /* title: Acesso ao Descubra Você*/
 const Investment = () => {
   return (
+    <AnimationWrapper delay={0.2}>
     <section id="investment" className={`flex flex-col mt-20 mb-20`}>
       <div className={`flex justify-center items-center `}>
         <h1 className={`${styles.heading2} text-center w-[300px] sm:w-full`}>
@@ -66,6 +68,7 @@ const Investment = () => {
         </div>
       </div>
     </section>
+    </AnimationWrapper>
   );
 };
 

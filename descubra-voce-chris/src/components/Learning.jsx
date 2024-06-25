@@ -1,7 +1,7 @@
 import { learning, text_section3 } from "../constants";
 import styles, { layout }  from "../style";
 import Cards from './Cards';
-
+import AnimationWrapper from '../ui/AnimationWrapper';
 
 const Learning = () => {
 
@@ -9,6 +9,7 @@ const Learning = () => {
   const { title, text } = text_section3;
 
   return (
+    <AnimationWrapper delay={0.2}>
     <section id="learning" className={`flex flex-col xs:mt-20 xs:mb-20 mt-20`}>
       
       {/*right gradient*/}
@@ -33,6 +34,7 @@ const Learning = () => {
       </div>
 
     </section>
+    </AnimationWrapper>
   )}
 
 export default Learning
